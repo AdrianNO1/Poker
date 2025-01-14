@@ -1,0 +1,16 @@
+.opponentsContainer {
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	padding: 0;
+	padding-top: 8px;
+}
+
+.waiting {
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	margin: 30px;
+}

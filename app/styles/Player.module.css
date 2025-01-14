@@ -1,0 +1,50 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    min-width: 160px;
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.money {
+    font-size: 1rem;
+    color: #32cd32;
+    font-weight: 500;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 4px;
+}
+
+.card {
+    display: flex;
+    gap: 4px;
+}
+
+.card img {
+    width: 60px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.card img:hover {
+    transform: translateY(-4px);
+}
+
+.action {
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    min-height: 22px;
+    max-height: 22px;
+}
